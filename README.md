@@ -12,7 +12,7 @@ git clone https://github.com/a4mod/godsteam03mod/new/main?readme=1
 
 ls
 
-cd Spammsms
+cd godsteam03mod
 
-python3 SpammsmsV2.py
+python3 A4Spammsms.py
 
