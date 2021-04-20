@@ -1,10 +1,23 @@
-import requests,json,time,threading
+mport requests,json,time,threading
 #from requests_futures.sessions import FuturesSession
 #from requests_futures import sessions
 session = requests.Session()
-number = input("\n\nFB :  เหนือค้าบบ\n\nEnter  :")
-numbers = input("\nใส่เบอร์ที่มี66:")
-num = int(input("\nจำนวนข้อความ:"))
+print(" ขอให้ใช้สคิปอย่างสนุกนะค้าบ FB : เหนือ ค้าบบ")
+number = input("Enter : ")
+import os,sys
+import time
+
+time.sleep(3)
+os.system('clear')
+os.system('figlet -f mono9 Termux | lolcat')
+time.sleep(2)
+print('คุณต้องการที่จะเปิดสคิปไหม ? [ Y/n ]')
+NEUA = input("เลือก : ")
+
+numbers = input("เบอร์ที่ใส่66แทน0 : ") 
+num = int(input("จำนวนข้อความ : "))
+time.sleep(2)
+print('ระบบกำลังดำเนินการ กรุณารอสักครู่!')
 class SMS():
     def spammono(self,number):
         url = "https://www.monomax.me/api/v2/signup/telno"
